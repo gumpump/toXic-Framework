@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Script Type="Txt">
+        <Font Name="Name" Large="Größe"></Font>
+	<Pos X="X" Y="Y"></Pos>
+	<Color R="R" G="G" B="B"></Color>
+	<Text>
+		Text ohne Anführungszeichen
+	</Text>
+</Script>

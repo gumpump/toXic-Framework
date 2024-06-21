@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7087C657-CDF9-4AED-B231-861E46271751}</ProjectGuid>
+    <RootNamespace>toXicFramework</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Users\Wolfgang\Documents\Programmieren\Third-Party-Libraries\assimp-3.1.1-win-binaries\assimp-3.1.1-win-binaries\include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib;C:\Users\Wolfgang\Documents\Programmieren\Third-Party-Libraries\assimp-3.1.1-win-binaries\assimp-3.1.1-win-binaries;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Dokumente und Einstellungen\Wolfgang Neue\Desktop\Programmier-Projekte\Third-Party-Libraries\assimp--3.0.1270-sdk\include\assimp;C:\Programme\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Users\Wolfgang\Documents\Programmieren\Third-Party-Libraries\assimp-3.1.1-win-binaries\assimp-3.1.1-win-binaries\include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Programme\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib;C:\Users\Wolfgang\Documents\Programmieren\Third-Party-Libraries\assimp-3.1.1-win-binaries\assimp-3.1.1-win-binaries;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:\assimp--2.0.863-sdk\assimp--2.0.863-sdk\lib\assimp_release-dll_win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:\assimp--2.0.863-sdk\assimp--2.0.863-sdk\lib\assimp_release-dll_win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="toXic\Event\Event_Manager.cpp" />
+    <ClCompile Include="toXic\Graphic\Graphic_Camera.cpp" />
+    <ClCompile Include="toXic\Graphic\Graphic_Device.cpp" />
+    <ClCompile Include="toXic\Graphic\Graphic_Heightmap.cpp" />
+    <ClCompile Include="toXic\Graphic\Graphic_HeightmapTile.cpp" />
+    <ClCompile Include="toXic\Graphic\Graphic_Light.cpp" />
+    <ClCompile Include="toXic\Graphic\Graphic_AssimpMesh.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="toXic\Graphic\Graphic_Process_Render.cpp" />
+    <ClCompile Include="toXic\Graphic\Graphic_ProgressiveMesh.cpp" />
+    <ClCompile Include="toXic\Graphic\Graphic_SimpleMesh.cpp" />
+    <ClCompile Include="toXic\Graphic\Graphic_Skybox.cpp" />
+    <ClCompile Include="toXic\Graphic\Graphic_Text.cpp" />
+    <ClCompile Include="toXic\Graphic\Graphic_Text_Container.cpp" />
+    <ClCompile Include="toXic\Graphic\Graphic_Textures.cpp" />
+    <ClCompile Include="toXic\Graphic\Graphic_Window.cpp" />
+    <ClCompile Include="toXic\Graphic\Graphic_Fog.cpp" />
+    <ClCompile Include="toXic\Audio\Audio_Device.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Game_Delete.cpp" />
+    <ClCompile Include="Game_Init.cpp" />
+    <ClCompile Include="Game_Process.cpp" />
+    <ClCompile Include="Game_Render.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="toXic\Input\Input_Keyboard.cpp" />
+    <ClCompile Include="toXic\Movement\Movement_Process.cpp" />
+    <ClCompile Include="toXic\Process\Process_Manager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="toXic\Process\Process_Timer.cpp" />
+    <ClCompile Include="toXic\Script\Script_XML.cpp" />
+    <ClCompile Include="toXic\Script\TinyXML\tinystr.cpp" />
+    <ClCompile Include="toXic\Script\TinyXML\tinyxml.cpp" />
+    <ClCompile Include="toXic\Script\TinyXML\tinyxmlerror.cpp" />
+    <ClCompile Include="toXic\Script\TinyXML\tinyxmlparser.cpp" />
+    <ClCompile Include="toXic\Common\Common_Error.cpp" />
+    <ClCompile Include="toXic\Common\Logfile\Logfile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="toXic\Audio\Audio_Device.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="toXic\Controlling\Controlling_Common.hpp" />
+    <ClInclude Include="toXic\Event\Event_Listener_Base.hpp" />
+    <ClInclude Include="toXic\Event\Event_Manager.hpp" />
+    <ClInclude Include="toXic\Event\Event_Types.hpp" />
+    <ClInclude Include="toXic\Graphic\Graphic_Heightmap.hpp" />
+    <ClInclude Include="toXic\Graphic\Graphic_Heightmap_Types.hpp" />
+    <ClInclude Include="toXic\Graphic\Graphic_HeightmapTile.hpp" />
+    <ClInclude Include="toXic\Graphic\Graphic_AssimpMesh.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="toXic\Graphic\Graphic_Mesh_Types.hpp" />
+    <ClInclude Include="toXic\Graphic\Graphic_Process_Render.hpp" />
+    <ClInclude Include="toXic\Graphic\Graphic_ProgressiveMesh.hpp" />
+    <ClInclude Include="toXic\Graphic\Graphic_SimpleMesh.hpp" />
+    <ClInclude Include="toXic\Graphic\Graphic_Skybox.hpp" />
+    <ClInclude Include="toXic\Graphic\Graphic_Skybox_Types.hpp" />
+    <ClInclude Include="toXic\Graphic\Graphic_Text.hpp" />
+    <ClInclude Include="toXic\Graphic\Graphic_Text_Container.hpp" />
+    <ClInclude Include="toXic\Graphic\Graphic_Text_Container_Types.hpp" />
+    <ClInclude Include="toXic\Graphic\Graphic_Text_Types.hpp" />
+    <ClInclude Include="toXic\Graphic\Graphic_Device.hpp" />
+    <ClInclude Include="toXic\Graphic\Graphic_Window.hpp" />
+    <ClInclude Include="toXic\Graphic\Graphic_Light.hpp" />
+    <ClInclude Include="toXic\Graphic\Graphic_Camera.hpp" />
+    <ClInclude Include="toXic\Graphic\Graphic_Camera_Types.hpp" />
+    <ClInclude Include="toXic\Graphic\Graphic_Textures.hpp" />
+    <ClInclude Include="toXic\Graphic\Graphic_Fog.hpp" />
+    <ClInclude Include="toXic\Graphic\Graphic_Fog_Types.hpp" />
+    <ClInclude Include="Game.hpp" />
+    <ClInclude Include="toXic\Common\Common.hpp" />
+    <ClInclude Include="toXic\Common\Common_Defines.hpp" />
+    <ClInclude Include="toXic\Common\Common_Functions.hpp" />
+    <ClInclude Include="toXic\Common\Common_Includes.hpp" />
+    <ClInclude Include="Timer.hpp" />
+    <ClInclude Include="Ressource\resource.h" />
+    <ClInclude Include="toXic\Input\Input_Device.hpp" />
+    <ClInclude Include="toXic\Input\Input_Keyboard.hpp" />
+    <ClInclude Include="toXic\Movement\Movement_Process.hpp" />
+    <ClInclude Include="toXic\Movement\Movement_Types.hpp" />
+    <ClInclude Include="toXic\Process\Process_Base.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="toXic\Process\Process_Manager.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="toXic\Process\Process_Timer.hpp" />
+    <ClInclude Include="toXic\Process\Process_Types.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="toXic\Script\Script_XML.hpp" />
+    <ClInclude Include="toXic\Script\Script_XML_Types.hpp" />
+    <ClInclude Include="toXic\Script\TinyXML\tinystr.h" />
+    <ClInclude Include="toXic\Script\TinyXML\tinyxml.h" />
+    <ClInclude Include="tX_Controlling.hpp" />
+    <ClInclude Include="tX_Graphic.hpp" />
+    <ClInclude Include="tX_Input.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Ressource\Res.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

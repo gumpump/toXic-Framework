@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\Graphic">
+      <UniqueIdentifier>{d859a09b-74dd-4a6f-a2e0-457ea1c9a3fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Graphic\Camera">
+      <UniqueIdentifier>{8e5682c8-e034-4b16-b54d-75af71ee704b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Graphic\Interface">
+      <UniqueIdentifier>{e4ca78d6-cda2-4186-9603-67721cb6e4ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Graphic\Heightmap">
+      <UniqueIdentifier>{caf11e24-f421-49a8-9983-68c15f384a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Graphic\Light">
+      <UniqueIdentifier>{e3516361-31ec-4af8-80ad-d4a3c2717058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Graphic\Mesh">
+      <UniqueIdentifier>{bdc00564-957e-4149-ae80-20a5493d181e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Graphic\Skybox">
+      <UniqueIdentifier>{8ccdf2f3-5c50-4601-b371-6257321409b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Graphic\Text">
+      <UniqueIdentifier>{2b102d1f-2a4d-4521-86ae-f6e088e33233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Graphic\Textures">
+      <UniqueIdentifier>{15a06a36-54d1-41a9-8d13-23fad696a225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Graphic\Window">
+      <UniqueIdentifier>{3cf188e8-93e8-48da-a757-e0fc4565e3a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Graphic\Fog">
+      <UniqueIdentifier>{81f45cfc-e6f7-4d50-b185-6fb4b5bc80ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Audio">
+      <UniqueIdentifier>{63ddc55e-9c9f-435e-80bb-2219d55f9ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Audio\Interface">
+      <UniqueIdentifier>{9350222f-9d34-486a-9676-5be39d1773e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Game">
+      <UniqueIdentifier>{4c915b06-2e8d-4042-bd84-1c9b243d30b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\User">
+      <UniqueIdentifier>{53ef6531-0a9c-4144-b86e-843e7a0e13db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Script">
+      <UniqueIdentifier>{92e28c36-e799-472d-a088-09bec3a59c11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Script\TinyXML">
+      <UniqueIdentifier>{5799991f-7c0d-4dbd-98e5-93f42e3c31d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Controlling">
+      <UniqueIdentifier>{22259eb4-e2f5-4228-a442-6ebe819d3a1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Common">
+      <UniqueIdentifier>{62f5a7c4-7058-4d49-84d6-afb7a9d62a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Common\Logfile">
+      <UniqueIdentifier>{fdee4674-dc15-4bd4-9fa1-3ccefef91e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Process">
+      <UniqueIdentifier>{6d67b95e-57d7-4a0d-b158-f5222bf84c1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\Audio">
+      <UniqueIdentifier>{394e0c27-48f1-4bae-ab88-65ef2015b775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Audio\Interface">
+      <UniqueIdentifier>{b66da74c-ca1e-4c93-b914-e42db33f8f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Graphic">
+      <UniqueIdentifier>{f90a0271-011d-4026-89f8-be7678cc7758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Graphic\Heightmap">
+      <UniqueIdentifier>{14e949d1-5729-4d84-9a39-77577e9c0621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Graphic\Mesh">
+      <UniqueIdentifier>{bf345c6c-c49c-4464-9a5e-ebe8f4f9edc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Graphic\Skybox">
+      <UniqueIdentifier>{f45d7a50-8c57-446b-82cf-763e04ea9c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Graphic\Text">
+      <UniqueIdentifier>{acc32899-ce91-43db-b72c-c8f99a5fc64b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Graphic\Interface">
+      <UniqueIdentifier>{b37e24cd-71ba-4f98-963a-9689d39b501b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Graphic\Window">
+      <UniqueIdentifier>{543052a4-2fb5-46b3-99b0-b90b8715a76a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Graphic\Light">
+      <UniqueIdentifier>{f4519111-85b8-484d-a5f9-dc6887276892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Graphic\Camera">
+      <UniqueIdentifier>{0f868712-8b0a-4ae0-8fc5-b22bc6142724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Graphic\Textures">
+      <UniqueIdentifier>{2d6d4b05-1301-4cf8-b4e3-7566dbd6a584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Graphic\Fog">
+      <UniqueIdentifier>{ce1f609c-107a-4952-9529-81e188a432fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Game">
+      <UniqueIdentifier>{daf3ff04-1772-42ef-9129-043c24a4f78d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Common">
+      <UniqueIdentifier>{9534abdd-0498-4c9a-ae89-5bcfcae88ce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\User">
+      <UniqueIdentifier>{51aa5e98-ea05-4609-bd7e-f973ec8c88d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Ressourcen">
+      <UniqueIdentifier>{1798470f-13a0-4970-a92f-dbc708c3a8b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Movement">
+      <UniqueIdentifier>{0ee66288-16f2-4f2f-93e5-3b8870378808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Script">
+      <UniqueIdentifier>{02160846-ce0c-4b6b-8f94-01965929d9f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Script\TinyXML">
+      <UniqueIdentifier>{3ef3eebf-99e1-47d4-b2e4-a29a8f94ac8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Controlling">
+      <UniqueIdentifier>{d5965f8b-fd46-4a4f-92ec-ca9219cd7d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Process">
+      <UniqueIdentifier>{6f231532-f584-4f58-af6c-cfa0072b1a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\Input">
+      <UniqueIdentifier>{cf08dcde-938e-4621-b789-98d3783a272c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Input">
+      <UniqueIdentifier>{bd96f065-d7e0-41dc-a208-6819ef9c56dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Event">
+      <UniqueIdentifier>{3da633d2-d585-41ad-9c83-07feb24ed864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Event">
+      <UniqueIdentifier>{016ffbe0-9eab-49bc-81e2-6ee7ee7d72e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool-Code">
+      <UniqueIdentifier>{1183f8e6-55ce-4853-8f68-887cced9927d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool-Code\Timer">
+      <UniqueIdentifier>{84a11637-4f35-4a5e-9487-18d02f73d3a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Movement">
+      <UniqueIdentifier>{47028c0f-635a-4092-adcf-36f0a8e9dbab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="toXic\Graphic\Graphic_Camera.cpp">
+      <Filter>Quelldateien\Graphic\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Graphic\Graphic_Device.cpp">
+      <Filter>Quelldateien\Graphic\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Graphic\Graphic_Heightmap.cpp">
+      <Filter>Quelldateien\Graphic\Heightmap</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Graphic\Graphic_HeightmapTile.cpp">
+      <Filter>Quelldateien\Graphic\Heightmap</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Graphic\Graphic_Light.cpp">
+      <Filter>Quelldateien\Graphic\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Graphic\Graphic_AssimpMesh.cpp">
+      <Filter>Quelldateien\Graphic\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Graphic\Graphic_ProgressiveMesh.cpp">
+      <Filter>Quelldateien\Graphic\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Graphic\Graphic_SimpleMesh.cpp">
+      <Filter>Quelldateien\Graphic\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Graphic\Graphic_Skybox.cpp">
+      <Filter>Quelldateien\Graphic\Skybox</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Graphic\Graphic_Text.cpp">
+      <Filter>Quelldateien\Graphic\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Graphic\Graphic_Text_Container.cpp">
+      <Filter>Quelldateien\Graphic\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Graphic\Graphic_Textures.cpp">
+      <Filter>Quelldateien\Graphic\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Graphic\Graphic_Window.cpp">
+      <Filter>Quelldateien\Graphic\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Graphic\Graphic_Fog.cpp">
+      <Filter>Quelldateien\Graphic\Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Audio\Audio_Device.cpp">
+      <Filter>Quelldateien\Audio\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Quelldateien\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Delete.cpp">
+      <Filter>Quelldateien\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Init.cpp">
+      <Filter>Quelldateien\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Process.cpp">
+      <Filter>Quelldateien\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Render.cpp">
+      <Filter>Quelldateien\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Quelldateien\User</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Script\Script_XML.cpp">
+      <Filter>Quelldateien\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Script\TinyXML\tinystr.cpp">
+      <Filter>Quelldateien\Script\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Script\TinyXML\tinyxml.cpp">
+      <Filter>Quelldateien\Script\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Script\TinyXML\tinyxmlerror.cpp">
+      <Filter>Quelldateien\Script\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Script\TinyXML\tinyxmlparser.cpp">
+      <Filter>Quelldateien\Script\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Common\Common_Error.cpp">
+      <Filter>Quelldateien\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Common\Logfile\Logfile.cpp">
+      <Filter>Quelldateien\Common\Logfile</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Input\Input_Keyboard.cpp">
+      <Filter>Quelldateien\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Process\Process_Manager.cpp">
+      <Filter>Quelldateien\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Process\Process_Timer.cpp">
+      <Filter>Quelldateien\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Graphic\Graphic_Process_Render.cpp">
+      <Filter>Quelldateien\Graphic\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Event\Event_Manager.cpp">
+      <Filter>Quelldateien\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Tool-Code\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="toXic\Movement\Movement_Process.cpp">
+      <Filter>Quelldateien\Movement</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="toXic\Audio\Audio_Device.hpp">
+      <Filter>Headerdateien\Audio\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Graphic\Graphic_Heightmap.hpp">
+      <Filter>Headerdateien\Graphic\Heightmap</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Graphic\Graphic_Heightmap_Types.hpp">
+      <Filter>Headerdateien\Graphic\Heightmap</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Graphic\Graphic_HeightmapTile.hpp">
+      <Filter>Headerdateien\Graphic\Heightmap</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Graphic\Graphic_AssimpMesh.hpp">
+      <Filter>Headerdateien\Graphic\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Graphic\Graphic_Mesh_Types.hpp">
+      <Filter>Headerdateien\Graphic\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Graphic\Graphic_ProgressiveMesh.hpp">
+      <Filter>Headerdateien\Graphic\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Graphic\Graphic_SimpleMesh.hpp">
+      <Filter>Headerdateien\Graphic\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Graphic\Graphic_Skybox.hpp">
+      <Filter>Headerdateien\Graphic\Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Graphic\Graphic_Skybox_Types.hpp">
+      <Filter>Headerdateien\Graphic\Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Graphic\Graphic_Text.hpp">
+      <Filter>Headerdateien\Graphic\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Graphic\Graphic_Text_Container.hpp">
+      <Filter>Headerdateien\Graphic\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Graphic\Graphic_Text_Container_Types.hpp">
+      <Filter>Headerdateien\Graphic\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Graphic\Graphic_Text_Types.hpp">
+      <Filter>Headerdateien\Graphic\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Graphic\Graphic_Device.hpp">
+      <Filter>Headerdateien\Graphic\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Graphic\Graphic_Window.hpp">
+      <Filter>Headerdateien\Graphic\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Graphic\Graphic_Light.hpp">
+      <Filter>Headerdateien\Graphic\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Graphic\Graphic_Camera.hpp">
+      <Filter>Headerdateien\Graphic\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Graphic\Graphic_Camera_Types.hpp">
+      <Filter>Headerdateien\Graphic\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Graphic\Graphic_Textures.hpp">
+      <Filter>Headerdateien\Graphic\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Graphic\Graphic_Fog.hpp">
+      <Filter>Headerdateien\Graphic\Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Graphic\Graphic_Fog_Types.hpp">
+      <Filter>Headerdateien\Graphic\Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Headerdateien\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Common\Common.hpp">
+      <Filter>Headerdateien\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Common\Common_Defines.hpp">
+      <Filter>Headerdateien\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Common\Common_Functions.hpp">
+      <Filter>Headerdateien\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Common\Common_Includes.hpp">
+      <Filter>Headerdateien\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Ressource\resource.h">
+      <Filter>Headerdateien\Ressourcen</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Movement\Movement_Types.hpp">
+      <Filter>Headerdateien\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Script\Script_XML.hpp">
+      <Filter>Headerdateien\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Script\Script_XML_Types.hpp">
+      <Filter>Headerdateien\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Script\TinyXML\tinystr.h">
+      <Filter>Headerdateien\Script\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Script\TinyXML\tinyxml.h">
+      <Filter>Headerdateien\Script\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Input\Input_Keyboard.hpp">
+      <Filter>Headerdateien\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Input\Input_Device.hpp">
+      <Filter>Headerdateien\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Process\Process_Base.hpp">
+      <Filter>Headerdateien\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Process\Process_Manager.hpp">
+      <Filter>Headerdateien\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Process\Process_Types.hpp">
+      <Filter>Headerdateien\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Process\Process_Timer.hpp">
+      <Filter>Headerdateien\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Controlling\Controlling_Common.hpp">
+      <Filter>Headerdateien\Controlling</Filter>
+    </ClInclude>
+    <ClInclude Include="tX_Controlling.hpp">
+      <Filter>Headerdateien\Controlling</Filter>
+    </ClInclude>
+    <ClInclude Include="tX_Input.hpp">
+      <Filter>Headerdateien\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Graphic\Graphic_Process_Render.hpp">
+      <Filter>Headerdateien\Graphic\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Event\Event_Manager.hpp">
+      <Filter>Headerdateien\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Event\Event_Types.hpp">
+      <Filter>Headerdateien\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Event\Event_Listener_Base.hpp">
+      <Filter>Headerdateien\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.hpp">
+      <Filter>Tool-Code\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="toXic\Movement\Movement_Process.hpp">
+      <Filter>Headerdateien\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="tX_Graphic.hpp">
+      <Filter>Headerdateien\Graphic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Ressource\Res.rc">
+      <Filter>Headerdateien\Ressourcen</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

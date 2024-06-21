@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Script Type="Wnd">
+        <Size Width="800" Height="600"></Size>
+	<Window Mode="1"></Window>
+	<Color R="0" G="0" B="0"></Color>
+</Script>

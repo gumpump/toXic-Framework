@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Script Type="Wnd">
+    <Size Width="Breite" Height="H-oe-he"></Size>
+	<Window Mode="Vollbild 1 Fenster 0"></Window>
+	<Color R="Rot" G="Gr-ue-n" B="Blau"></Color>
+</Script>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Script Type="Mesh">
+        <Load Path="Pfad f-ue-r Texturen" File="Pfad zur Meshdatei"></Load>
+        <Pos X="PosX" Y="PosY" Z="PosZ"></Pos>
+        <Rot X="RotX" Y="RotY" Z="RotZ"></Rot>
+</Script>

@@ -1,0 +1,8 @@
+#ifndef GRAPHIC_TEXT_TYPES_IS_DEFINED
+#define GRAPHIC_TEXT_TYPES_IS_DEFINED
+
+#define TXT_DIR_LEFT			1
+#define TXT_DIR_DOWN			2
+#define TXT_DIR_RIGHT			3
+#define TXT_DIR_UP				4
+#endif
